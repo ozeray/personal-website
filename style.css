@@ -609,6 +609,7 @@ span.blockspam {
 
     .nav__logo {
         transform: scale(0.75);
+        margin: 0 -8rem 0 -8rem;
     }
 }
 
@@ -619,7 +620,6 @@ span.blockspam {
 
     .nav {
         height: 16rem;
-        padding: 0;
     }
 
     .nav__links {
@@ -634,13 +634,42 @@ span.blockspam {
     .contact__me-title {
         display: none;
     }
+
+    .projects {
+        grid-template-columns: auto;
+    }
+
+    .services__tab {
+        font-size: 1.5rem;
+        margin-right: 0.3rem;
+        padding: 1rem;
+        border-radius: 2rem;
+    }
 }
 
-/*@media screen and (max-width: 700px) {*/
-/*    .nav__logo {*/
-/*        margin-left: -3rem;*/
-/*    }*/
-/*}*/
+@media screen and (max-width: 700px) {
+    .nav__logo {
+        transform: scale(0.5);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .nav__logo {
+        margin: 0 -8rem 0 -12rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .nav__logo {
+        margin: 0 -15rem 0 -12rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .nav__logo {
+        margin: 0 -15rem 0 -14rem;
+    }
+}
 
 /*@media screen and (max-width: 650px) {*/
 /*    .nav__logo {*/

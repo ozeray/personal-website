@@ -104,7 +104,7 @@
         observer.unobserve(img);
     };
 
-    const imgObserver = new IntersectionObserver(loadImg, {root: null, threshold: 0, rootMargin: '200px'}); //Load before scroll
+    const imgObserver = new IntersectionObserver(loadImg, {root: null, threshold: 0, rootMargin: '500px'}); //Load before scroll
     lazyImages.forEach(img => imgObserver.observe(img));
 })();
 

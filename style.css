@@ -252,7 +252,6 @@ h4 {
 .projects__project {
     align-self: center;
     justify-self: center;
-    width: 70%;
     font-size: 1.5rem;
 }
 
@@ -597,10 +596,6 @@ span.blockspam {
     .nav {
         padding: 0;
     }
-
-    .projects {
-        margin: 0 0 0 5rem;
-    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -640,10 +635,6 @@ span.blockspam {
 
     .services {
         padding: 0 1rem;
-    }
-
-    .dots {
-        display: none;
     }
 }
 
@@ -704,6 +695,10 @@ span.blockspam {
         flex-direction: column;
     }
 
+    .projects {
+        margin: 0;
+    }
+
     .services__tab {
         font-size: 1.3rem;
         margin-right: 0.5rem;
@@ -731,22 +726,23 @@ span.blockspam {
     .nav__logo
     {
         transform: scale(4.5);
-        height: 8rem;
+        height: 6rem;
         position: relative;
     }
 
     .nav {
-        height: 15rem;
+        height: 13rem;
         flex-direction: column;
     }
 
     .nav__links {
         flex-flow: row;
         flex-wrap: wrap;
+        margin-left: 5rem;
     }
 
-    .projects {
-        margin: 0;
+    .services__tab {
+        font-size: 1.1rem;
     }
 
     .slider, .slide {
@@ -755,6 +751,10 @@ span.blockspam {
 
     .testimonial::before {
         display: none;
+    }
+
+    .section__header {
+        font-size: 2.5rem;
     }
 }
 
@@ -771,6 +771,12 @@ span.blockspam {
         font-size: 1.7rem;
         line-height: 2rem;
     }
+
+    .slider__btn {
+        height: 3rem;
+        width: 3rem;
+        font-size: 1.75rem;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -781,7 +787,25 @@ span.blockspam {
 
 @media screen and (max-width: 450px) {
     .slider, .slide {
-        height: 135rem;
+        height: 125rem;
+    }
+
+    .footer__logo {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .slider, .slide {
+        height: 145rem;
+    }
+
+    .section__header {
+        font-size: 2rem;
+    }
+
+    .section {
+        padding: 13rem 1rem;
     }
 }
 
@@ -791,7 +815,7 @@ span.blockspam {
     }
 
     .slider, .slide {
-        height: 175rem;
+        height: 170rem;
     }
 }
 

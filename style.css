@@ -37,7 +37,6 @@ body {
 .section {
     padding: 13rem 3rem;
     border-top: 1px solid #ddd;
-    margin-top: 20rem;
     transition: transform 1s, opacity 1s;
 }
 
@@ -350,6 +349,7 @@ h4 {
     height: 7rem;
     width: 7rem;
     border-radius: 50%;
+    padding-left: 2px;
 }
 
 .services__icon svg {
@@ -597,6 +597,10 @@ span.blockspam {
     .nav {
         padding: 0;
     }
+
+    .projects {
+        margin: 0 0 0 5rem;
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -619,23 +623,27 @@ span.blockspam {
 }
 
 @media screen and (max-width: 1000px) {
-    .section {
-        padding-top: 30rem;
-    }
-
     .projects {
         grid-template-columns: auto;
+        gap: 3rem 4rem;
+    }
+
+    .projects__project {
+        width: 100%;
+        margin-bottom: 6rem;
+    }
+
+    .section__title {
+        margin-bottom: 3rem;
+        padding-top: 6rem;
+    }
+
+    .services {
+        padding: 0 1rem;
     }
 
     .dots {
         display: none;
-    }
-
-    .services__tab {
-        font-size: 1.5rem;
-        margin-right: 0.3rem;
-        padding: 1rem;
-        border-radius: 2rem;
     }
 }
 
@@ -665,9 +673,24 @@ span.blockspam {
     .contact__me-title {
         display: none;
     }
+
+    .services__tab {
+        font-size: 1.5rem;
+        margin-right: 1.5rem;
+        padding: 1.5rem;
+        border-radius: 2rem;
+    }
+
+    .services__content--active {
+        padding: 0 1.5rem 1rem 0.5rem;
+    }
+
+    .slider, .slide {
+        height: 85rem;
+    }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
     .nav__logo {
         transform: scale(0.8);
     }
@@ -679,6 +702,28 @@ span.blockspam {
     .header__title {
         display: flex;
         flex-direction: column;
+    }
+
+    .services__tab {
+        font-size: 1.3rem;
+        margin-right: 0.5rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .services__content--active {
+        grid-template-columns: 1fr;
+    }
+
+    .services__content p {
+        grid-column: 1;
+    }
+
+    .services__icon {
+        display: none;
+    }
+
+    .slider, .slide {
+        height: 90rem;
     }
 }
 
@@ -699,10 +744,38 @@ span.blockspam {
         flex-flow: row;
         flex-wrap: wrap;
     }
+
+    .projects {
+        margin: 0;
+    }
+
+    .slider, .slide {
+        height: 110rem;
+    }
+
+    .testimonial::before {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .slider, .slide {
+        height: 130rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .slider, .slide {
+        height: 150rem;
+    }
 }
 
 @media screen and (max-width: 350px) {
     .nav {
         height: 18rem;
+    }
+
+    .slider, .slide {
+        height: 200rem;
     }
 }

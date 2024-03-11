@@ -432,7 +432,7 @@ h4 {
 
 .dots {
     position: absolute;
-    bottom: 5%;
+    bottom: 4%;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -620,7 +620,7 @@ span.blockspam {
 @media screen and (max-width: 1000px) {
     .projects {
         grid-template-columns: auto;
-        gap: 3rem 4rem;
+        gap: 1rem 4rem;
     }
 
     .projects__project {
@@ -738,7 +738,7 @@ span.blockspam {
     .nav__links {
         flex-flow: row;
         flex-wrap: wrap;
-        margin-left: 5rem;
+        margin-left: 3rem;
     }
 
     .services__tab {

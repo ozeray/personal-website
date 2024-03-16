@@ -24,10 +24,10 @@
         />
         <ul class="nav__links">
           <li class="nav__item">
-            <a class="nav__link" href="#section--1">Portfolio</a>
+            <a class="nav__link" href="#section--1">Services</a>
           </li>
           <li class="nav__item">
-            <a class="nav__link" href="#section--2">Services</a>
+            <a class="nav__link" href="#section--2">Portfolio</a>
           </li>
           <li class="nav__item">
             <a class="nav__link" href="#section--3">Testimonials</a>
@@ -56,11 +56,92 @@
                 class="header__img"
                 alt="Flowers"
         />
-        <button class="btn--text btn--scroll-to">Some of my projects &DownArrow;</button>
+        <button class="btn--text btn--scroll-to">Here are services that I offer &DownArrow;</button>
       </div>
     </header>
 
     <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description">Services offered to clients</h2>
+        <h3 class="section__header">
+          Let's build your system together.
+        </h3>
+      </div>
+
+      <div class="services">
+        <div class="services__tab-container">
+          <button
+                  class="btn services__tab services__tab--1 services__tab--active"
+                  data-tab="1"
+          >
+            <span>01</span>Software Development
+          </button>
+          <button class="btn services__tab services__tab--2" data-tab="2">
+            <span>02</span>System Design & Architecture
+          </button>
+          <button class="btn services__tab services__tab--3" data-tab="3">
+            <span>03</span>Training
+          </button>
+        </div>
+        <div class="services__content services__content--1 services__content--active">
+          <div class="services__icon services__icon--1">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-code"></use>
+            </svg>
+          </div>
+          <h5 class="services__header">
+            Enterprise software, web applications, microservices
+          </h5>
+          <p>
+            I bring more than 16 years of software engineering experience to the table: Java, web programming (HTML, CSS, JavaScript, etc.), and full-stack development (Maven, Spring, REST, Docker, Hibernate, SQL, etc.).
+            <br />
+            I possess solid knowledge of enterprise applications, microservices, network and HTTP architecture, backend and frontend implementation, working with databases and application servers, containerization and orchestration, domain and test driven development, software development life-cycle, continuous integration and agile programming.
+            <br />
+            I feel confident that I am the right person to help your projects done.
+            <br />
+            Please visit my <a href="https://www.linkedin.com/in/ahmet-ya%C5%9Far-%C3%B6zer-b31a4663" target="_blank">LinkedIn</a> or
+            <a href="https://www.upwork.com/freelancers/~016b32aae9fbd3522a" target="_blank">Upwork</a> profile to view a complete list of my projects, my skills and work history.
+          </p>
+        </div>
+
+        <div class="services__content services__content--2">
+          <div class="services__icon services__icon--2">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-layout"></use>
+            </svg>
+          </div>
+          <h5 class="services__header">
+            "80 percent of any job is about interacting with people."
+          </h5>
+          <p>
+            I enjoyed many years building my own infrastructures from bottom to top and use them in various projects. Recently I managed to keep up with the latest technology trends and cloud computing as well.
+            <br />
+            I am comfortable communicating with technical and non-technical employees throughout the company in order to complete projects and achieve organizational goals.
+            <br />
+            I have also taken active role in modernization of legacy applications.
+          </p>
+        </div>
+        <div class="services__content services__content--3">
+          <div class="services__icon services__icon--3">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-sun"></use>
+            </svg>
+          </div>
+          <h5 class="services__header">
+            Enthusiasm about sharing, helping, supporting and teaching.
+          </h5>
+          <p>
+            Over the years I was humbly known for providing education, consultancy and orientation to junior colleagues.
+            <br />
+            Having conducted a techno-psychological mission at my workplaces, I gratefully have a deep sense of satisfaction.
+            <br />
+            Training is not only transferring knowledge, but an art by preparing the audience to grasp the subject.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--2">
       <div class="section__title">
         <h2 class="section__description">Portfolio</h2>
         <h3 class="section__header">
@@ -156,87 +237,6 @@
             In this project we used HTML, CSS and JavaScript to build the so-called pig game. Two players roll dice to accumulate scores and the player who first reaches a score of 50 wins the game.
             <br />
             You may <a href="https://ozeray.github.io/pig-game" target="_blank">try it</a> out with your friends :)
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="section--2">
-      <div class="section__title">
-        <h2 class="section__description">Services offered to clients</h2>
-        <h3 class="section__header">
-          Let's build your system together.
-        </h3>
-      </div>
-
-      <div class="services">
-        <div class="services__tab-container">
-          <button
-            class="btn services__tab services__tab--1 services__tab--active"
-            data-tab="1"
-          >
-            <span>01</span>Software Development
-          </button>
-          <button class="btn services__tab services__tab--2" data-tab="2">
-            <span>02</span>System Design & Architecture
-          </button>
-          <button class="btn services__tab services__tab--3" data-tab="3">
-            <span>03</span>Training
-          </button>
-        </div>
-        <div class="services__content services__content--1 services__content--active">
-          <div class="services__icon services__icon--1">
-            <svg>
-              <use xlink:href="img/icons.svg#icon-code"></use>
-            </svg>
-          </div>
-          <h5 class="services__header">
-            Enterprise software, web applications, microservices
-          </h5>
-          <p>
-            I bring more than 16 years of software engineering experience to the table: Java, web programming (HTML, CSS, JavaScript, etc.), and full-stack development (Maven, Spring, REST, Docker, Hibernate, SQL, etc.).
-            <br />
-            I possess solid knowledge of enterprise applications, microservices, network and HTTP architecture, backend and frontend implementation, working with databases and application servers, containerization and orchestration, domain and test driven development, software development life-cycle, continuous integration and agile programming.
-            <br />
-            I feel confident that I am the right person to help your projects done.
-            <br />
-            Please visit my <a href="https://www.linkedin.com/in/ahmet-ya%C5%9Far-%C3%B6zer-b31a4663" target="_blank">LinkedIn</a> or
-            <a href="https://www.upwork.com/freelancers/~016b32aae9fbd3522a" target="_blank">Upwork</a> profile to view a complete list of my projects, my skills and work history.
-          </p>
-        </div>
-
-        <div class="services__content services__content--2">
-          <div class="services__icon services__icon--2">
-            <svg>
-              <use xlink:href="img/icons.svg#icon-layout"></use>
-            </svg>
-          </div>
-          <h5 class="services__header">
-            "80 percent of any job is about interacting with people."
-          </h5>
-          <p>
-            I enjoyed many years building my own infrastructures from bottom to top and use them in various projects. Recently I managed to keep up with the latest technology trends and cloud computing as well.
-            <br />
-            I am comfortable communicating with technical and non-technical employees throughout the company in order to complete projects and achieve organizational goals.
-            <br />
-            I have also taken active role in modernization of legacy applications.
-          </p>
-        </div>
-        <div class="services__content services__content--3">
-          <div class="services__icon services__icon--3">
-            <svg>
-              <use xlink:href="img/icons.svg#icon-sun"></use>
-            </svg>
-          </div>
-          <h5 class="services__header">
-            Enthusiasm about sharing, helping, supporting and teaching.
-          </h5>
-          <p>
-            Over the years I was humbly known for providing education, consultancy and orientation to junior colleagues.
-            <br />
-            Having conducted a techno-psychological mission at my workplaces, I gratefully have a deep sense of satisfaction.
-            <br />
-            Training is not only transferring knowledge, but an art by preparing the audience to grasp the subject.
           </p>
         </div>
       </div>

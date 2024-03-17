@@ -760,7 +760,7 @@ span.blockspam {
 
 @media screen and (max-width: 550px) {
     .slider, .slide {
-        height: 92rem;
+        height: 96rem;
     }
 
     .testimonial__text, .testimonial__title {
@@ -797,7 +797,7 @@ span.blockspam {
 
 @media screen and (max-width: 400px) {
     .slider, .slide {
-        height: 145rem;
+        height: 131rem;
     }
 
     .section__header {
@@ -815,7 +815,7 @@ span.blockspam {
     }
 
     .slider, .slide {
-        height: 170rem;
+        height: 156rem;
     }
 }
 

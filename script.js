@@ -81,7 +81,7 @@
         }
     };
 
-    const sectionObserver = new IntersectionObserver(revealSection, {root: null, threshold: 0.15, rootMargin: '-10px'});
+    const sectionObserver = new IntersectionObserver(revealSection, {root: null, threshold: 0, rootMargin: '-30px'});
     allSections.forEach(section => {
         sectionObserver.observe(section);
         section.classList.add('section--hidden');

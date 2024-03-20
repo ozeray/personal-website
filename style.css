@@ -685,14 +685,6 @@ iframe {
         align-items: flex-start;
     }
 
-    .contact__me {
-        padding: 0 0.8rem;
-    }
-
-    .contact__me-title {
-        display: none;
-    }
-
     .services__tab {
         font-size: 1.5rem;
         margin-right: 1.5rem;
@@ -831,10 +823,6 @@ iframe {
     .section__header {
         font-size: 2rem;
     }
-
-    /*.section {*/
-    /*    padding: 13rem 1rem;*/
-    /*}*/
 }
 
 @media screen and (max-width: 350px) {
